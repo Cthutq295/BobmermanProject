@@ -2,7 +2,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Components/BoxComponent.h"
 #include "GameFramework/Actor.h"
 #include "Tile.generated.h"
 
@@ -37,10 +36,10 @@ protected:
 	
 	virtual void BeginPlay() override;
 
+	virtual void OnConstruction(const FTransform& Transform) override;
+
 
 public:	
-
-	//virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION()
 	void GenerateWalls();

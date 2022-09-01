@@ -1,6 +1,4 @@
-
 #include "Tile.h"
-
 
 ATile::ATile()
 {
@@ -25,13 +23,23 @@ void ATile::BeginPlay()
 	GenerateWalls();
 }
 
+void ATile::OnConstruction(const FTransform& Transform)
+{
+	Super::OnConstruction(Transform);
+	
+	// We don't want to draw mesh in editor when we don't want it to be spawned in game.
+	if(!HasWall) WallMesh->SetVisibility(false);
+	else WallMesh->SetVisibility(true);
+	
+	if(!IsBlocked) BlockMesh->SetVisibility(false);
+	else BlockMesh->SetVisibility(true);
+}
+
 void ATile::GenerateWalls()
 {
 
-	if(IsBlocked)
-	{
-		WallMesh->DestroyComponent();
-	} else BlockMesh->DestroyComponent();
+	if(IsBlocked) WallMesh->DestroyComponent();
+	else BlockMesh->DestroyComponent();
 	
 	if(HasWall == false)
 	{
@@ -47,6 +55,7 @@ void ATile::GenerateWalls()
 		if(WallSpawnChance > 5)
 		{
 			WallMesh->DestroyComponent();
+			HasWall = false;
 		}
 	}
 }

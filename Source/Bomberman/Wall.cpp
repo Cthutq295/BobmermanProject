@@ -1,10 +1,9 @@
 #include "Wall.h"
 
-
 AWall::AWall()
 {
  	
-	PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bCanEverTick = false;
 	WallMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("WallBody"));
 	
 
@@ -16,9 +15,4 @@ void AWall::BeginPlay()
 	
 }
 
-void AWall::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}
 
