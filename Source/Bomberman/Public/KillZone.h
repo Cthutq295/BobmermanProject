@@ -12,7 +12,7 @@ class BOMBERMAN_API AKillZone : public ATriggerBox
 	GENERATED_BODY()
 	
 protected:
-	AKillZone();
+
 	virtual void BeginPlay();
 
 	UFUNCTION()
