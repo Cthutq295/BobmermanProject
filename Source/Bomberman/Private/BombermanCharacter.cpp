@@ -10,9 +10,6 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Kismet/KismetSystemLibrary.h"
 
-//////////////////////////////////////////////////////////////////////////
-// ABombermanCharacter
-
 ABombermanCharacter::ABombermanCharacter()
 {
 	// Set size for collision capsule
@@ -46,8 +43,8 @@ void ABombermanCharacter::SetupPlayerInputComponent(class UInputComponent* Playe
 {
 	// Set up gameplay key bindings
 	check(PlayerInputComponent);
-	PlayerInputComponent->BindAction("PlaceBomb", IE_Released, this, &ABombermanCharacter::OnPlaceBomb);
-	PlayerInputComponent->BindAction("LeaveGame", IE_Released, this, &ABombermanCharacter::OnLeaveGame);
+	PlayerInputComponent->BindAction("PlaceBomb", IE_Pressed, this, &ABombermanCharacter::OnPlaceBomb);
+	PlayerInputComponent->BindAction("LeaveGame", IE_Pressed, this, &ABombermanCharacter::OnLeaveGame);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &ABombermanCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ABombermanCharacter::MoveRight);
