@@ -8,16 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55a2f6da-6fc6-4328-8aae-b4c7bd59830d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bomberman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bomberman/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP_KillVolume.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP_KillVolume.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Bomberman/Private/Bomb.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Bomberman/Private/Bomb.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Bomberman/Private/BombermanCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Bomberman/Private/BombermanCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Bomberman/Private/KillZone.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Bomberman/Private/KillZone.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Bomberman/Public/KillZone.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Bomberman/Public/KillZone.h" afterDir="false" />
-    </list>
+    <list default="true" id="f7342c68-4304-448e-ae94-e6d413e6b809" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,8 +17,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2AyEkYNiadurmO06LGp9P8KR0VZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2GAyrTJO6mqbXTZNvb9XMs12ZSI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,7 +31,6 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -262,53 +251,56 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="55a2f6da-6fc6-4328-8aae-b4c7bd59830d" name="Changes" comment="" />
-      <created>1655973570777</created>
+      <changelist id="f7342c68-4304-448e-ae94-e6d413e6b809" name="Changes" comment="" />
+      <created>1665845884858</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1655973570777</updated>
-      <workItem from="1655973602779" duration="19502000" />
-      <workItem from="1655995133749" duration="16640000" />
-      <workItem from="1656055825624" duration="22816000" />
-      <workItem from="1656081625143" duration="2347000" />
-      <workItem from="1656084008881" duration="1681000" />
-      <workItem from="1656086035672" duration="396000" />
-      <workItem from="1656086688185" duration="50000" />
-      <workItem from="1662023597132" duration="2450000" />
-      <workItem from="1663265843025" duration="547000" />
-      <workItem from="1663267108276" duration="677000" />
-      <workItem from="1663267816385" duration="168000" />
-      <workItem from="1663496500893" duration="538000" />
-      <workItem from="1663498010012" duration="432000" />
-      <workItem from="1663498476734" duration="96000" />
-      <workItem from="1663521553267" duration="345000" />
-      <workItem from="1663521970101" duration="711000" />
-      <workItem from="1664608949601" duration="207000" />
-      <workItem from="1664609241010" duration="1036000" />
+      <updated>1665845884858</updated>
+      <workItem from="1665845915276" duration="749000" />
+      <workItem from="1665846741932" duration="119000" />
+      <workItem from="1665846877559" duration="9552000" />
+      <workItem from="1665856597224" duration="6926000" />
+      <workItem from="1665932435001" duration="12552000" />
+      <workItem from="1665989047008" duration="22741000" />
+      <workItem from="1666281428740" duration="7222000" />
+      <workItem from="1666290611411" duration="4941000" />
+      <workItem from="1666380998901" duration="2061000" />
+      <workItem from="1666460172506" duration="6679000" />
+      <workItem from="1666534832883" duration="315000" />
+      <workItem from="1666535236222" duration="7191000" />
+      <workItem from="1666552353754" duration="2625000" />
+      <workItem from="1666595924234" duration="542000" />
+      <workItem from="1666596504860" duration="7222000" />
+      <workItem from="1666605149668" duration="159000" />
+      <workItem from="1666626352011" duration="8231000" />
+      <workItem from="1666883598315" duration="790000" />
+      <workItem from="1666884434113" duration="2959000" />
+      <workItem from="1666948670103" duration="642000" />
+      <workItem from="1667034421496" duration="3550000" />
+      <workItem from="1667064267444" duration="843000" />
+      <workItem from="1667116595410" duration="1087000" />
+      <workItem from="1667117723081" duration="7468000" />
+      <workItem from="1667130085255" duration="3431000" />
+      <workItem from="1669126623299" duration="145000" />
+      <workItem from="1670149500542" duration="10752000" />
+      <workItem from="1670327071374" duration="1543000" />
+      <workItem from="1670328695020" duration="6491000" />
+      <workItem from="1670337243977" duration="2784000" />
+      <workItem from="1670490363655" duration="15161000" />
+      <workItem from="1670508003639" duration="2601000" />
+      <workItem from="1671650228588" duration="3515000" />
+      <workItem from="1674475398923" duration="912000" />
+      <workItem from="1674476910247" duration="3337000" />
+      <workItem from="1674555149980" duration="3799000" />
+      <workItem from="1674559359564" duration="1411000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
